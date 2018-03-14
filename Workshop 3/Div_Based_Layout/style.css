@@ -56,3 +56,74 @@ div{
 .nav li:last-child{
     border-right:none;
 }
+
+.aboutContainer{
+    background-color:rgb(135,169,132);
+    width:920px;
+    height:210px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:8px;
+}
+
+.image{
+    height:131px;
+    width:134px;
+    margin-top:45px;
+    margin-left:45px;
+    float:left; 
+}
+
+.textContainer{
+    width:445px;
+    height:131px;
+    margin-left:52px;
+    margin-top:45px;
+    float:left;
+}
+
+.about{
+    width:136;
+    height:36;
+    float:left;
+    color:white;
+    font-size:2.5rem;
+    font-weight:bold;
+    margin-top:
+}
+
+.aboutText{
+    width:445px;
+    height:73px;
+    font-size:1.0rem;
+    font-family:sans-serif;
+    float:left;
+}
+
+.bottomContainer{
+    width:922px;
+    height:612px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12px;
+    background-color:rgb(219,216,197);
+}
+
+.leftContainer{
+    width:196px;
+    height:612px;
+    background-color:rgb(150,175,172);
+}
+
+.leftMenu{
+    width:139px;
+    height:149px;
+    margin-left:27px;
+    margin-top:33px;
+    float:left;
+}
+
+.rightContainer{
+    width:726px;
+    height:612px;
+}
