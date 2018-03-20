@@ -1,0 +1,53 @@
+div {
+   outline: 1px solid lime;
+}
+
+.container{
+   width: 920px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header{
+   background-color: blue;
+   height: 200px;
+   width: 100%;
+}
+
+.splitHead{
+    background-color: blue;
+    height: 200px;
+    width: 460px;
+    float:left;
+}
+
+.content1{
+    background-color: greenyellow;
+    height: 200px;
+    width:100%;
+}
+
+.content2{
+    background-color:red;
+    height: 420px;
+    width: 100%;
+    float: left;
+}
+
+.squares{
+    background-color: yellow;
+    height:205px;
+    width: 205px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.rectangles{
+    background-color: yellow;
+    height: 155px;
+    width: 430px;
+    float:left;
+    margin-left: 20px;
+    margin-top:20px;
+}
