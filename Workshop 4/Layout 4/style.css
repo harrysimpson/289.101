@@ -1,0 +1,19 @@
+div {
+   outline: 1px solid lime;
+}
+/*
+body {
+   background:
+} */
+
+.container{
+   width: 920px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.header{
+   background-color: blue;
+   height: 200px;
+   width: 100%;
+}

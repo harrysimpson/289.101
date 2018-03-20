@@ -14,11 +14,19 @@ div {
    width: 100%;
 }
 
-.redBoxes{
+.content{
     background-color: red;
-    width: 306px;
-    height: 400px;
+    height: 500px;
+    width: 920px;
+}
+
+.yellowBox{
+    background-color: yellow;
+    height: 460px;
+    width: 430px;
     float: left;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .footer{
