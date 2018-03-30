@@ -6,7 +6,6 @@ div{
 }
 */
 
-
 body{
     background-color: #2d303a;
     margin: 0;
@@ -257,6 +256,94 @@ body{
     float: left;
     margin-left: 15px;
     margin-top: 10px;
+}
+
+.getAQuote{
+    width: auto;
+    height: 600px;
+    background-color: #f06c64
+} 
+
+.getAQuoteTopText{
+    width:100%;
+    color: #f0d8d9;
+    margin-top: 45px;
+    float:left;
+}
+
+.inputBoxs{
+    width: 620px;
+    height: 280px;
+    float: left;
+    margin-top: 45px;
+}
+
+.box1{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    background-color: #d6564f;
+    color: #f06c64;
+    font-size: 0.6rem;
+    padding-left: 10px;
+}
+
+.box2{
+    height: 100px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    background-color: #d6564f;
+    color: #f06c64;
+    font-size: 0.6rem;
+    padding-left: 10px;
+}
+
+.contactInformation{
+    width: 310px;
+    height: 280px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.contactInformation{
+    color: #f0d8d9;
+}
+
+.contactInformation p{
+    font-size: 0.7rem
+}
+
+.contactImages{
+    width: 20px;
+    float: left;
+    margin-top: 16px
+}
+
+.contactDetails{
+    width: 200px;
+    float: left;
+    margin-left: 20px
+    
+}
+
+.footer{
+    background-color: #2d303a;
+    width: 100%;
+}
+
+.copyright{
+    color: #666d89;
+    font-size: 0.6rem;
+    width: 160px;
+    float: left;
+    line-height: 55px
+}
+.socialLinks{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 
