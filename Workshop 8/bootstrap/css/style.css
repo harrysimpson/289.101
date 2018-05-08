@@ -1,0 +1,30 @@
+body{
+
+}
+
+.blue{
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+.green{
+    background-color: chartreuse;
+    height: 50px;
+}
+
+.orange{
+    background-color: darkorange;
+    height: 100px;
+}
+
+.grey{
+    background-color: grey;
+    height: 50px;
+}
+
+/* sm */
+@media (min-width:576px){
+    body{
+        background-color: red;
+}
+    
