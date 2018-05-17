@@ -54,8 +54,8 @@
     <a id="eyes_down_btn">move eyes down</a>
     <a>move eyes closer together</a>
     <a>move eyes further apart</a>
-    <a>hollow eyes</a>
-    <a>solid eyes</a>
+    <a id="hollow_eyes_btn">hollow eyes</a>
+    <a id="solid_eyes_btn">solid eyes</a>
     <a>big eyes</a>
     <a>small eyes</a>
     <a>no right eye</a>
@@ -114,6 +114,20 @@
     // make happy
       document.getElementById('happy_mouth_btn').addEventListener('click', function(){
           document.getElementById('mouth').src = 'mouth_happy.svg';
+      })
+      
+    // hollow eyes
+      document.getElementById('hollow_eyes_btn').addEventListener('click', function(){
+          document.getElementById('eye_right').src = 'eye_hollow.svg';
+          document.getElementById('hollow_eyes_btn').addEventListener('click', function(){
+          document.getElementById('eye_left').src = 'eye_hollow.svg';
+      })
+    
+
+
+          
+      
+
       })
   </script>
 
